@@ -1,11 +1,17 @@
-@import 'https://fonts.google.com/specimen/Roboto';
-
 html {
   --default-white: #fff;
   --default-black: #000;
   --blue-letters: #00acdc;
   --header-height: 60px;
   --default-font-family: 'Roboto', 'Arial', 'sans-serif';
+}
+
+.roboto-medium {
+  font-family: Roboto, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
 }
 
 body {
